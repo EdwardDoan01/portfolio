@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Personal Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.jpg">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <script src="https://unpkg.com/scrollreveal@4.0.9/dist/scrollreveal.min.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo"><a href="index.html"> My Portfolio</a></div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html" class="cont">Contact Me</a></li>
+                <li><button id="theme-toggle" class="theme-toggle-btn"><i class="fas fa-moon"></i></button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="contact">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Get In Touch</h2>
+                    <p>I'm always open to discussing new projects or creative ideas.</p>
+                </div>
+                <div class="contact-container">
+                <form id="contact-form" action="https://formspree.io/f/your-email@example.com" method="POST">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" required class="form-input" placeholder=" ">
+                        <label for="name" class="form-label">Your Name</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" required class="form-input" placeholder=" ">
+                        <label for="email" class="form-label">Your Email</label>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" class="form-input" placeholder=" " rows="7" required></textarea>
+                        <label for="message" class="form-label">Your Message</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+                <div id="form-status"></div>
+            </div>
+        </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-about">
+                <h4>About Me</h4>
+                <p>I am a passionate full stack developer dedicated to creating beautiful and functional web experiences. Let's build something amazing together.</p>
+                <div class="footer-social">
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.facebook.com/doan.dan.3344"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Me</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contact.html">Contact Me</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h4>Contact Info</h4>
+                <p><i class="fas fa-map-marker-alt"></i> Ho Chi Minh City,  Viet Nam</p>
+                <p><i class="fas fa-envelope"></i> doandan1932004@gmail.com</p>
+                <p><i class="fas fa-phone"></i> +1 234 567 890</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 DOAN DAN INTERNSHIP. All rights reserved.</p>
+        </div>
+    </footer>
+
+
+    <script src="js/main.js"></script>
+</body>
+</html>
