@@ -32,11 +32,11 @@ To get a local copy up and running, follow these simple steps.
 
 1.  **Clone the repository:**
     ```sh
-    git clone https://github.com/MahnoorPortfolio/Personal-Portfolio-Website.git
+    git clone https://github.com/EdwardDoan01/portfolio.git
     ```
 2.  **Navigate to the project directory:**
     ```sh
-    cd Personal-Portfolio-Website
+    cd portfolio
     ```
 3.  **Open `index.html` in your browser** to view the website.
 
@@ -54,7 +54,7 @@ To receive messages from the contact form, you need to configure the Formspree e
 
 - **Text Content**: All text can be edited directly in the `.html` files (`index.html`, `about.html`, etc.).
 - **Styling**: All styles, colors, and fonts can be customized in `css/style.css`. Key color variables for the default (dark) theme are in the `:root` section, and variables for the light theme are defined under the `body.light-mode` rule.
-- **Images**: Replace the images in the `images` folder with your own. Ensure the profile picture (`girl_picture.jpg`) and project images have the same filenames or update the paths in the HTML.
+- **Images**: Replace the images in the `images` folder with your own. Ensure the profile picture (`my_picture.jpg`) and project images have the same filenames or update the paths in the HTML.
 
 ## License
 
